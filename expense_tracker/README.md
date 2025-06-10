@@ -1,19 +1,15 @@
 # 💰 Expense Tracker App (Flutter)
 
-A beautiful and intuitive mobile application to track your daily expenses and income. Built with **Flutter** and **Dart**, this app helps users stay on top of their finances by recording transactions, categorizing them, and viewing insightful charts and summaries.
+A beautiful and intuitive mobile application to track your daily expenses and income. Built with **Flutter** and **Dart**, this app helps users stay on top of their finances by recording transactions, categorizing them, and viewing insightful chart.
 
 ---
 
 ## 🚀 Features
 
-* 📆 Add, update, and delete transactions
-* 🗂️ Categorize expenses (Food, Transport, Shopping, etc.)
-* 📊 Visual charts (pie & bar) for monthly spending insights
-* 📅 Filter transactions by date range
-* 💰 Track income vs expenses
-* 🌙 Dark Mode support
-* 💾 Local data persistence using SQLite
-* 📱 Responsive UI for all screen sizes (Android & iOS)
+* 📆 Add and delete transactions
+* 🗂️ Categorize expenses (Food, Leisure, travel, work)
+* 📊 Bar chart for spending insights
+* 📱 Responsive UI 
 
 ---
 
@@ -23,8 +19,6 @@ A beautiful and intuitive mobile application to track your daily expenses and in
 | ------------------ | --------------------------------------- |
 | **Flutter**        | UI toolkit for natively compiled apps   |
 | **Dart**           | Programming language used by Flutter    |
-| **SQLite**         | Local database for storing transactions |
-| **Provider**       | State management solution               |
 | **Charts Flutter** | For generating interactive charts       |
 | **Intl**           | For date and currency formatting        |
 | **Flutter Icons**  | For consistent UI icons                 |
@@ -36,10 +30,9 @@ A beautiful and intuitive mobile application to track your daily expenses and in
 > *(Add screenshots in a `screenshots/` folder and include them below)*
 
 ```
-screenshots/
+expense_tracker/screenshots/
 ├── home_screen.png
 ├── add_transaction.png
-├── chart_view.png
 ```
 
 ---
@@ -49,7 +42,7 @@ screenshots/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/expense-tracker-flutter.git
+   git clone https://github.com/jvarghes2501/Expense_tracker_app.git
    cd expense-tracker-flutter
    ```
 
@@ -80,66 +73,11 @@ screenshots/
 lib/
 ├── main.dart                     # Entry point
 ├── models/                       # Data models (Transaction, Category)
-├── providers/                    # State management
-├── screens/                      # UI screens
 ├── widgets/                      # Reusable components
-├── utils/                        # Constants, helpers, themes
-├── database/                     # SQLite service layer
+   ├── chart/                      # Bar chart display components
+   ├── expenses_list/                      # Scrollable expenses list container and individual expense item display component 
+
 ```
 
 ---
 
-## ⚙️ Configuration
-
-Ensure you have Flutter installed. If not:
-
-* [Install Flutter](https://flutter.dev/docs/get-started/install)
-* Use an emulator or connect a physical device
-
-For Android:
-
-* Enable developer mode and USB debugging
-
-For iOS:
-
-* Use Xcode and a valid provisioning profile
-
----
-
-## 📌 Todo (Future Features)
-
-* 🔄 Cloud sync with Firebase
-* 👥 Multi-user support
-* 🔔 Budget reminders & notifications
-* 📤 Export transactions as CSV/PDF
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-To contribute:
-
-1. Fork this repository
-2. Create a new branch (`feature/your-feature`)
-3. Commit your changes
-4. Open a pull request
-
----
-
-## 🧑‍💻 Author
-
-**Your Name**
-GitHub: [@your-username](https://github.com/your-username)
-Email: [your.email@example.com](mailto:your.email@example.com)
-
----
-
-## 🪪 License
-
-This project is licensed under the MIT License.
-See the [LICENSE](LICENSE) file for details.
-
----
-
-Would you like me to generate icons, app logos, or example screenshots to include?
