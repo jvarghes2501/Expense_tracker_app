@@ -27,13 +27,11 @@ A beautiful and intuitive mobile application to track your daily expenses and in
 
 ## 📷 Screenshots
 
-> *(Add screenshots in a `screenshots/` folder and include them below)*
 
-```
-expense_tracker/screenshots/
-├── home_screen.png
-├── add_transaction.png
-```
+| Home Screen                             | New Expenses View                             |
+|----------------------------------------|------------------------------------------|
+| <img src="screenshots/home_screen.png" width="250"/> | <img src="screenshots/add_transaction.png" width="250"/> |
+| *Home screen showing recent expenses* | *Adding new expenses interface*       |
 
 ---
 
